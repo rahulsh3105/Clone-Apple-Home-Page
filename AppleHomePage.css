@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 255, 255, 0.824);
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    color: darkgray;
+    width: 100%;
+    height: 45px;
+    font-size: 10.4pt;
+    opacity: 85%;
+}
+
+ul {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 14px 50px;
+}
+
+li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(205, 205, 205);
+}
+
+main {
+    padding-top: 40px;
+}
+
+main .below_nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 12px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 11.5pt;
+    margin-bottom: 0px;
+}
+
+#banner_one{
+    background-size: cover;
+    height: 90vh;
+    background-position-y: -150px;
+    margin-bottom: 10px;
+}
+
+#banner_two, #banner_three {
+    background-size: cover;
+    height: 90vh;
+    background-position-y: -150px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.banner > * {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.banner h1 {
+    font-size: 40pt;
+}
+
+.banner h2 {
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+.banner a {
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#banner_two {
+    background-image: url('iphone-14-pro.jpeg');
+    background-position-y: -50px;   
+}
+
+#banner_three {
+    background-image: url('iphone-14.jpeg');
+    background-position-y: -100px;
+}
+
+.category {
+    display: flex;
+}
+
+.category .box {
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+}
+
+.category .box a { 
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 20px;
+}
+
+#box1 {
+    background-image: url('homepod.png');
+}
+
+#box2 {
+    background-image: url('card2.jpg');
+    color: black;
+}
+
+#box3 {
+    background-image: url('card3.jpg');
+}
+
+#box4 {
+    background-image: url('card4.jpg');
+    color: black;
+}
+
+#box2 .label {
+    color: red;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+footer {
+    background-color: rgba(211, 211, 211, 0.158);
+    width: 100%;
+    height: 100%;
+}
+
+footer .container {
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+footer .container > * {
+    font-size: 10.5pt;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
